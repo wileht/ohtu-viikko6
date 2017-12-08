@@ -20,8 +20,8 @@ public class Erotus implements Komento {
 	}
 
 	@Override
-	public void peru() {
-		// TODO Auto-generated method stub
-
+	public void peru(Integer edellinenArvo) {
+		sovellus.plus(edellinenArvo);
+		tuloskentta.setText("" + sovellus.tulos());
 	}
 }

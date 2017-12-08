@@ -17,11 +17,10 @@ public class Nollaa implements Komento {
 	public void suorita() {
 		sovellus.nollaa();
 		tuloskentta.setText("" + sovellus.tulos());
+		syotekentta.setText("0");
 	}
 
 	@Override
-	public void peru() {
-		// TODO Auto-generated method stub
-
+	public void peru(Integer edellinenArvo) {
 	}
 }

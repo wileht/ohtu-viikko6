@@ -2,5 +2,5 @@ package ohtu;
 
 public interface Komento {
 	void suorita();
-	void peru();
+	void peru(Integer edellinenArvo);
 }

@@ -20,8 +20,8 @@ public class Summa implements Komento {
 	}
 
 	@Override
-	public void peru() {
-		// TODO Auto-generated method stub
-
+	public void peru(Integer edellinenArvo) {
+		sovellus.miinus(edellinenArvo);
+		tuloskentta.setText("" + sovellus.tulos());
 	}
 }
